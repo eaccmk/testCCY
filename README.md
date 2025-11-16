@@ -23,8 +23,10 @@ How to run
 2. Start the server (in one terminal):
 
 ```bash
-node trade_server.js
+npm run trade_server.js
 ```
+
+This will start a local (trade) server at `http://localhost:3001`
 
 3. Run the sequential test (in another terminal):
 

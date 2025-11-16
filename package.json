@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "serve": "node trade_server.js",
-        "sequential": "node test_sequential.js",
-        "parallel": "node test_parallel.js"
+        "server": "node trade_server.js",
+        "sequential": "node tests/sequential.js",
+        "parallel": "node tests/parallel.js"
     }
 }

@@ -1,5 +1,4 @@
-// Run this server in one terminal before starting the client/test-script
-// Start this file with `node server.js` before proceeding.
+// Run this server in one terminal before starting the client/test-scripts
 
 const http = require('http');
 

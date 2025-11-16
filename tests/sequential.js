@@ -37,7 +37,7 @@ function sendTrade(amount) {
             break;
         }
         // Uncomment to log each trade result:
-        console.log(`Amount: ${amount} -> ${respBody.status}`);
+        // console.log(`Amount: ${amount} -> ${respBody.status}`);
     }
     const end = Date.now();
     console.log(`Total time (sequential): ${end - start} ms`);
