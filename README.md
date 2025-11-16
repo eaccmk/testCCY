@@ -42,6 +42,8 @@ npm run parallel.js
 
 [image](wiki/parallel_run.png)
 
+> 507321 ms = 8.45535 mins
+
 Notes
 - Adjust server port in the test scripts if your server listens on a different port.
 - The tests are simple Node.js scripts using the built-in `http` module; no test framework is required.
