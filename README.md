@@ -7,8 +7,8 @@ Prerequisites
 
 Files
 - `trade_server.js` - the server that accepts POST /trade
-- `test_sequential.js` - sends trades sequentially
-- `test_parallel.js` - sends trades in parallel
+- `sequential.js` - sends trades sequentially
+- `parallel.js` - sends trades in parallel
 
 How to run
 
@@ -31,14 +31,16 @@ This will start a local (trade) server at `http://localhost:3001`
 3. Run the sequential test (in another terminal):
 
 ```bash
-node test_sequential.js
+npm run sequential.js
 ```
 
 4. Run the parallel test:
 
 ```bash
-node test_parallel.js
+npm run parallel.js
 ```
+
+[image](wiki/parallel_run.png)
 
 Notes
 - Adjust server port in the test scripts if your server listens on a different port.
