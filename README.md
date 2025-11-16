@@ -40,7 +40,7 @@ npm run sequential.js
 npm run parallel.js
 ```
 
-[image](wiki/parallel_run.png)
+![Alt text](wiki/parallel_run.png?raw=true "Parallel run")
 
 > 507321 ms = 8.45535 mins
 
